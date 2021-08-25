@@ -19,9 +19,12 @@ p {
     border: none;
     border-radius: 2px;
   }
+  ul {
+    margin-top: 5px !important;
+    margin-left: -39px !important;
+  }
   li {
-    margin-left: -37px;
-    width: 150px;
+    width: 145px;
     height: 35px;
     padding: 2px;
     margin: 2px;

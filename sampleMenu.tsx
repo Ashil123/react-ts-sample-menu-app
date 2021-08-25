@@ -11,12 +11,14 @@ export const MyMenu = (props) => {
          Menu List
       </button>
         {menuVisible && (
+          <nav>
           <ul style={{ listStyleType: "none" }}>
             <li>Electronics</li>
             <li>Vehicles</li>
             <li>Home Appliaces</li>
             <li>Grocessories</li>
           </ul>
+          </nav>
         )}
     </div>
   );
